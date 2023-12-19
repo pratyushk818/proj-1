@@ -133,7 +133,7 @@ body{
     flex-direction: column;
     gap:2rem;
     padding:0.6rem;
-    margin:0 auto;
+    margin:14px auto;
 }
 .content-left
 {
@@ -167,6 +167,13 @@ body{
     font-size: 2.3rem;
     padding: 1.1rem;
     color: var(--text-color);
+}
+@media screen and (max-width:430px)
+{
+    .section-title{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
 }
 .section-description
 {
@@ -226,6 +233,7 @@ body{
     height:100%;
     width:100%;
 }
+
 
 @media screen and (min-width:883px)
 {
